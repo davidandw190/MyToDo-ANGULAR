@@ -1,6 +1,10 @@
 
 
+<<<<<<< HEAD
 <div class="todo-item" (click)="onTodoClicked()" [class.completed]="todo.completed">
+=======
+<div class="todo-item" [class.completed]="todo.completed">
+>>>>>>> origin/master
   <div class="check-box">
     <i class="material-icons">done</i>
   </div>
@@ -9,8 +13,13 @@
     {{ todo.text }}
   </div>
 
+<<<<<<< HEAD
   <div class="todo-controls-box" (click)="$event.stopPropagation()">
     <div class="todo-control-button" (click)="onEditClicked()">
+=======
+  <div class="todo-controls-box">
+    <div class="todo-control-button">
+>>>>>>> origin/master
       <i class="material-icons">edit</i>
     </div>
 

@@ -39,6 +39,7 @@
 
     <div class="todos-list">
 
+<<<<<<< HEAD
       <app-todo-item
         *ngFor="let todo of todos"
         [todo]="todo"
@@ -46,6 +47,9 @@
         (editClicked)="editTodo(todo)">
         {{ todo.text }};
       </app-todo-item>
+=======
+      <app-todo-item *ngFor="let todo of todos" [todo]="todo"></app-todo-item>
+>>>>>>> origin/master
 
     </div>
 

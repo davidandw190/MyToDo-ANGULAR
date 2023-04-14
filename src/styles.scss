@@ -1,5 +1,6 @@
 @import '../node_modules/bulma/bulma.sass';
 
+<<<<<<< HEAD
 @import '@angular/material/prebuilt-themes/indigo-pink.css';
 
 //@import 'tippy.js/dist/tippy.css';
@@ -7,6 +8,14 @@
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
+=======
+//@import '@angular/material/prebuilt-themes/indigo-pink.css';
+//
+//@import 'tippy.js/dist/tippy.css';
+
+html, body { height: 100%; }
+body { margin: 0; }
+>>>>>>> origin/master
 
 .alt-gradient-button {
   border: none;

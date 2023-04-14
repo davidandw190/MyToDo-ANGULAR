@@ -1,4 +1,4 @@
-/////////////////////////////////////////////////////////////////////
+
 .heading-section {
   background: linear-gradient(to right, rgb(2, 228, 171), rgb(74, 215, 240));
   padding: 100px;
@@ -8,7 +8,11 @@
   justify-content: center;
   flex-direction: column;
   //transition: all 0.3s ease-in-out;
+
   animation: gradient 4s linear infinite;
+
+  animation: gradient 1s linear infinite;
+
 
   @keyframes gradient {
     0% {

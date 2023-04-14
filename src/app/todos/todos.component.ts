@@ -2,8 +2,10 @@ import {Component, EventEmitter, OnInit, Output} from '@angular/core';
 import {Todo} from "../shared/todo.model";
 import {DataService} from "../shared/data.service";
 import {NgForm} from "@angular/forms";
+
 import {EditTodoDialogComponent} from "../edit-todo-dialog/edit-todo-dialog.component";
 import {MatDialog} from "@angular/material/dialog";
+
 
 @Component({
   selector: 'app-todos',
@@ -19,6 +21,9 @@ export class TodosComponent implements OnInit{
   showValidationErrors: boolean;
 
   constructor(private dataService: DataService, private dialog: MatDialog) {
+
+  constructor(private dataService: DataService) {
+
 
   }
 
@@ -67,5 +72,4 @@ export class TodosComponent implements OnInit{
     const index = this.todos.indexOf(todo)
     this.dataService.deleteTodo(index)
   }
-
 }
