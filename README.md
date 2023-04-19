@@ -4,6 +4,8 @@ MyToDo is a simple but effective web application built with Angular, TypeScript,
 
 ## Preview
 
+Previews coming very soon!! ^-^
+
 ## Features
 
 MyToDo application comes with the following features:
@@ -40,7 +42,7 @@ During the development of MyToDo application, I learned the following:
 
 To install and run MyToDo application, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/<username>/MyToDo.git`
+1. Clone the repository: `git clone https://github.com/davidandw190/MyToDo-ANGULAR.git`
 2. Install dependencies: `npm install`
 3. Run the application: `ng serve`
 
