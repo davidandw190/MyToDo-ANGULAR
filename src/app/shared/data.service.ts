@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import {Todo} from "./todo.model";
+import { Todo } from './todo.model';
 
 @Injectable({
   providedIn: 'root'
@@ -7,13 +7,10 @@ import {Todo} from "./todo.model";
 export class DataService {
 
   todos: Todo[] = [
-<<<<<<< HEAD
-    new Todo("This is a test."),
-    new Todo("This is another test.")
-=======
-    new Todo("this is a test"),
-    new Todo("Lorem ipsum idifd adas dad sdsdwaas asd ")
->>>>>>> origin/master
+    new Todo('Build a RESTful API in Go.', false),
+    new Todo('Drink more water!', true),
+    new Todo('Take the dogs out for a walk', true),
+    new Todo('Meet for the programming project.', true)
   ]
 
   constructor() { }
@@ -23,14 +20,15 @@ export class DataService {
   }
 
   addTodo(todo: Todo) {
-    this.todos.push(todo);
+    this.todos.push(todo)
   }
 
   updateTodo(index: number, updatedTodo: Todo) {
-    this.todos[index] = updatedTodo;
+    this.todos[index] = updatedTodo
   }
 
   deleteTodo(index: number) {
     this.todos.splice(index, 1)
   }
+
 }

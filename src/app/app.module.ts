@@ -5,34 +5,27 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {TodoItemComponent} from "./todo-item/todo-item.component";
 import {TodosComponent} from "./todos/todos.component";
-<<<<<<< HEAD
+
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { EditTodoDialogComponent } from './edit-todo-dialog/edit-todo-dialog.component';
 import {MatDialogModule} from "@angular/material/dialog";
-=======
->>>>>>> origin/master
+import {ToolTipSingletonDirective} from "./shared/tool-tip-singleton.directive";
 
 @NgModule({
   declarations: [
     AppComponent,
     TodosComponent,
-<<<<<<< HEAD
     TodoItemComponent,
-    EditTodoDialogComponent
-=======
-    TodoItemComponent
->>>>>>> origin/master
+    EditTodoDialogComponent,
+    TodoItemComponent,
+    ToolTipSingletonDirective
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-<<<<<<< HEAD
     FormsModule,
     BrowserAnimationsModule,
-    MatDialogModule
-=======
-    FormsModule
->>>>>>> origin/master
+    MatDialogModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

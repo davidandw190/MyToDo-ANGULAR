@@ -30,10 +30,7 @@
               "src/assets"
             ],
             "styles": [
-<<<<<<< HEAD
               "@angular/material/prebuilt-themes/indigo-pink.css",
-=======
->>>>>>> origin/master
               "src/styles.scss"
             ],
             "scripts": []
@@ -97,10 +94,7 @@
               "src/assets"
             ],
             "styles": [
-<<<<<<< HEAD
               "@angular/material/prebuilt-themes/indigo-pink.css",
-=======
->>>>>>> origin/master
               "src/styles.scss"
             ],
             "scripts": []
