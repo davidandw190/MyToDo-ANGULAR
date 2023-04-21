@@ -4,7 +4,7 @@ MyToDo is a simple but effective web application built with Angular, TypeScript,
 
 ## Preview
 
-Previews coming very soon!! ^-^
+![]("./mytodo-preview.gif")
 
 ## Features
 
