@@ -37,7 +37,6 @@ During the development of MyToDo application, I learned the following:
 * **SCSS**: I learned how to use SCSS's features, such as variables, mixins, and functions, to write more flexible and reusable stylesheets.
 * **Bulma**: I learned how to use Bulma's components and utility classes to build responsive and modern user interfaces.
 
-
 ## Installation
 
 To install and run MyToDo application, follow these steps:
@@ -55,3 +54,6 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ## Running end-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+
+
